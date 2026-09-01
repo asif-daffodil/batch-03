@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container p {
+    font-style: italic;
+}
+
+.container > p {
+    color: red;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+h1 ~ p {
+    font-variant: small-caps;
+}
+
+.container:hover {
+    background: yellow;
+}
+
+button:active {
+    transform: scale(0.5);
+}
+
+input[type="text"]:focus {
+    background: lightgreen;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+ul > li:first-child {
+    font-weight: bold;
+} 
+
+ul > li:last-child {
+    letter-spacing: 2px;
+}
+
+ul > li:nth-child(2) {
+    text-transform: uppercase;
+}
+
+ul > li:nth-child(odd) {
+    background-color: #ccc;
+}
+
+ul > li:nth-child(even) {
+    background-color: #8f8;
+}
+
+ul > li:not(:nth-child(2)) {
+    font-size: 22px;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: red;
+}
+
+.newPara {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.newPara::before {
+    content: "Istiak ";
+}
+
+.newPara:hover::before {
+    content: "Istiak taka dey nai ";
+}
+
+.newPara::after {
+    content: " 95";
+}
+
+.product {
+    width: 150px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.product::before {
+    content: "50%";
+    text-align: center;
+    background: #ff0;
+    border: 1px solid #000;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 16px/50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

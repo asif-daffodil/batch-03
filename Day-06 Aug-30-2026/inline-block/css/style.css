@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: green;
+    background: yellow;
+    width: 300px;
+    margin-left: auto;
+    display: block;
+}
+
+div {
+    color: red;
+    background: lightblue;
+    display: inline;
+    width: max-content;
+    margin-left: auto;
+}
+
+section {
+    width: 300px;
+    background: lightgreen;
+    display: inline-block;
+    /* margin-left: auto; */
+}

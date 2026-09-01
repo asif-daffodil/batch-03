@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.abul {
+    width: 150px;
+    height: 150px;
+    background: cornflowerblue;
+    transition: 0.5s;
+}
+
+.abul:hover {
+    /* transform: translateX(50%) translateY(50%); */
+    transform: translate(50%, 50px);
+}
+
+.babul {
+    width: 150px;
+    height: 150px;
+    background: limegreen;
+    transition: 0.5s;
+}
+
+.babul:hover {
+    transform: scale(0.8);
+}
+
+.kabul {
+    width: 150px;
+    height: 150px;
+    background: hotpink;
+    transition: 0.5s;
+}
+
+.kabul:hover {
+    transform: skew(10deg, 10deg);
+}
+
+.bulbul {
+    width: 150px;
+    height: 150px;
+    background: orangered;
+    transition: 0.5s;
+}
+
+.bulbul:hover {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+}
+
+.pitbul {
+    width: 150px;
+    height: 150px;
+    background: dodgerblue;
+    transition: 0.5s;
+}
+
+.pitbul:hover {
+    transform: matrix(1.2, 0.3, 0.3, 1.2, 60, 30);
+}
+
+.bul {
+    width: 150px;
+    height: 150px;
+    background: magenta;
+    transition: 0.5s;
+}
+
+.bul:hover {
+    transform: translate(50%, 50px) scale(0.8) skew(10deg, 10deg) rotateZ(360deg);
+}
