@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const products = [
    {
       id: 1,
@@ -117,9 +119,9 @@ function ProductCard({ product }) {
             </div>
 
             <div className="py-4 px-2 text-left">
-               <h3 className="text-sm sm:text-base font-semibold text-slate-900 line-clamp-2 dark:text-slate-50">
+               <Link to="/single-product" className="text-sm sm:text-base font-semibold text-slate-900 line-clamp-2 dark:text-slate-50">
                   {product.name}
-               </h3>
+               </Link>
 
                <div className="flex items-center flex-wrap gap-3 mt-2">
                   <StarRating rating={product.rating} />

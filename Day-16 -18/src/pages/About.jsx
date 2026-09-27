@@ -1,8 +1,11 @@
+import TeamSection from "../components/about/TeamSection";
+import Testimonial from "../components/about/Testimonial";
 
 const About = () => {
     return (
         <div>
-           About Page 
+           <TeamSection /> 
+           <Testimonial />
         </div>
     );
 };
