@@ -1,123 +1,133 @@
-
-const Footer = () => {
-
-    return (
-        <footer className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-                    <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                        </svg>
-                        <span className="ml-3 text-xl">Tailblocks</span>
-                    </a>
-                    <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
-                </div>
-                <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                        <nav className="list-none mb-10">
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                            </li>
-                        </nav>
-                    </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                        <nav className="list-none mb-10">
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                            </li>
-                        </nav>
-                    </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                        <nav className="list-none mb-10">
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                            </li>
-                        </nav>
-                    </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                        <nav className="list-none mb-10">
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                            </li>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div className="bg-gray-100">
-                <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
-                        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
-                    </p>
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                        <a className="text-gray-500">
-                            <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
-                                <rect width={20} height={20} x={2} y={2} rx={5} ry={5} />
-                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={0} className="w-5 h-5" viewBox="0 0 24 24">
-                                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
-                                <circle cx={4} cy={4} r={2} stroke="none" />
-                            </svg>
-                        </a>
-                    </span>
-                </div>
-            </div>
-        </footer>
-
-    );
+const FOOTER_DATA = {
+   sections: [
+      {
+         title: "Resources",
+         links: [
+            { name: "Graphic Design Tools", href: "#" },
+            { name: "Video Editing Tools", href: "#" },
+            { name: "Image Enhancer", href: "#" },
+            { name: "Remove Backgrounds", href: "#" },
+            { name: "Photo Enhancement", href: "#" },
+            { name: "Explore All Tools", href: "#" },
+         ],
+      },
+      {
+         title: "Helpful Links",
+         links: [
+            { name: "Subscription Plans", href: "#" },
+            { name: "Our Story", href: "#" },
+            { name: "Developer API", href: "#" },
+            { name: "Career Opportunities", href: "#" },
+            { name: "Become a Contributor", href: "#" },
+            { name: "Brand Guidelines", href: "#" },
+            { name: "Upcoming Events", href: "#" },
+            { name: "Search Insights", href: "#" },
+            { name: "Latest Articles", href: "#" },
+         ],
+      },
+      {
+         title: "Policies",
+         links: [
+            { name: "Terms & Conditions", href: "#" },
+            { name: "User Agreement", href: "#" },
+            { name: "Data Privacy Policy", href: "#" },
+            { name: "Copyright Notice", href: "#" },
+            { name: "Cookie Usage Policy", href: "#" },
+            { name: "Manage Cookies", href: "#" },
+         ],
+      },
+   ],
+   socials: [
+      {
+         label: "Facebook",
+         href: "#",
+         viewBox: "0 0 155.139 155.139",
+         path: "M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761z",
+      },
+      {
+         label: "LinkedIn",
+         href: "#",
+         viewBox: "0 0 24 24",
+         path: "M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0",
+      },
+      {
+         label: "X",
+         href: "#",
+         viewBox: "0 0 1226.37 1226.37",
+         path: "M727.348 519.284 1174.075 0h-105.86L680.322 450.887 370.513 0H13.185l468.492 681.821L13.185 1226.37h105.866l409.625-476.152 327.181 476.152h357.328L727.322 519.284zM582.35 687.828l-47.468-67.894-377.686-540.24H319.8l304.797 435.991 47.468 67.894 396.2 566.721H905.661L582.35 687.854z",
+      },
+   ],
 };
 
-export default Footer;
+export default function Footer() {
+   return (
+      <footer className="bg-slate-900 dark:bg-neutral-900 pt-16 pb-8 px-4 md:px-8 mt-10">
+         <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-6 sm:gap-x-8">
+
+               {/* Link Sections */}
+               {FOOTER_DATA.sections.map((section) => (
+                  <div key={section.title} className="space-y-6">
+                     <h3 className="text-sm text-slate-50 font-semibold">{section.title}</h3>
+                     <ul className="space-y-4 text-sm text-slate-400 font-normal">
+                        {section.links.map((link) => (
+                           <li key={link.name}>
+                              <a
+                                 href={link.href}
+                                 className="hover:text-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                              >
+                                 {link.name}
+                              </a>
+                           </li>
+                        ))}
+                     </ul>
+                  </div>
+               ))}
+
+               {/* Social Media & CTA Section */}
+               <div className="space-y-6">
+                  <h3 className="text-sm text-slate-50 font-semibold">Social Media</h3>
+                  <ul className="flex flex-wrap gap-6">
+                     {FOOTER_DATA.socials.map((social) => (
+                        <li key={social.label}>
+                           <a
+                              href={social.href}
+                              className="flex items-center bg-slate-800 dark:bg-neutral-800 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                              aria-label={social.label}
+                           >
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 className="size-full fill-slate-50"
+                                 viewBox={social.viewBox}
+                                 aria-hidden="true"
+                              >
+                                 <path d={social.path} />
+                              </svg>
+                           </a>
+                        </li>
+                     ))}
+                  </ul>
+
+                  <div className="!mt-8">
+                     <h6 className="text-sm text-slate-400">Get exclusive assets sent straight to your inbox</h6>
+                     <div className="mt-6">
+                        <a
+                           href="#"
+                           className="py-2 px-3.5 text-sm rounded-md font-semibold inline-block cursor-pointer tracking-wide text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                        >
+                           Sign up
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <hr className="my-8 border-neutral-700" />
+
+            <div className="text-center">
+               <p className="text-slate-400 text-sm">© ReadymadeUI. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+   );
+}
