@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "name": "Omar",
+      "gender": "male",
+      "homeTown": "Barishal",
+      "id": "uKk5lB6-Hgw"
+    },
+    {
+      "name": "Mukta",
+      "gender": "female",
+      "homeTown": "Barishal",
+      "id": "HoHY4oSW7EQ"
+    },
+    {
+      "name": "Tanmoy",
+      "gender": "male",
+      "homeTown": "Barishal",
+      "id": "cWGdoFKdzmQ"
+    },
+    {
+      "name": "Utsha",
+      "gender": "male",
+      "homeTown": "Chadpur",
+      "id": "48PPSFbYNmw"
+    },
+    {
+      "name": "Istiak",
+      "gender": "male",
+      "homeTown": "Barishal",
+      "id": "kOXWVieRj9Q"
+    },
+    {
+      "name": "Rafiq",
+      "gender": "male",
+      "homeTown": "Keraniganj",
+      "id": "9dDFWsEia08"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
