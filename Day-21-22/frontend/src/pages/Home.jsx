@@ -33,7 +33,7 @@ const Home = () => {
                                 <td>{std.gender}</td>
                                 <td>{std.homeTown}</td>
                                 <td>
-                                    <button className="btn btn-sm btn-primary">Edit</button>
+                                    <Link to={`/edit-student/${std.id}`} className="btn btn-sm btn-primary">Edit</Link>
                                     <button className="btn btn-sm btn-danger">Delete</button>
                                 </td>
                             </tr>

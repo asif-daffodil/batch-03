@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "name": "Omar",
+      "name": "Md Omar",
       "gender": "male",
       "homeTown": "Barishal",
       "id": "uKk5lB6-Hgw"
@@ -35,6 +35,30 @@
       "gender": "male",
       "homeTown": "Keraniganj",
       "id": "9dDFWsEia08"
+    },
+    {
+      "name": "Sabbir",
+      "gender": "male",
+      "homeTown": "Dhaka",
+      "id": "ZJjWdNMT7VI"
+    },
+    {
+      "name": "Rafiq",
+      "gender": "male",
+      "homeTown": "Brahmanbaria",
+      "id": "RiF548oxbiI"
+    },
+    {
+      "name": "Istiak32",
+      "gender": "male",
+      "homeTown": "Barishal",
+      "id": "L6h-pMvy_-Q"
+    },
+    {
+      "name": "Sabbir",
+      "gender": "male",
+      "homeTown": "Dhaka",
+      "id": "bW0I_cDYYd4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
